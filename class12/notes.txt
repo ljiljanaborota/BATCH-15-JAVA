@@ -1,0 +1,71 @@
+OOP-OBJECT ORIENTED PROGRAMING
+ITS just a way of writing code.That's follows certain  rules of guidelines.
+we created  classes with attributes/properties/fields and methods/function/behaviours.
+We should learn OOP because
+1. its simplifies the software development and maintenance-updates(adding new features,changing existing code).
+2. code duplications is reduced
+3. helps us represent something from real life with help of class
+and objects
+
+Scanner is very similar to OOP (creating a class without a main method), and then importing it when we need
+ it(cat,dog kind of classes we had).
+  Ex.#1 - Cat cat1 = new Cat () ;
+  Ex.#2 - Scanner scan = new Scanner (System.in) ;
+
+CLASS:
+   Represents a blueprint or a design from which actual real-life objects are created. Computer
+   It tells the computer how the dog will look alike, what would be the attributes, behaviors etc.
+    all from our different type of classes.
+
+
+OBJECT:
+   An object is an instance of a class. The basic building block of OOP.
+
+METHOD:
+   Method is basically a behavior of the object.
+
+Guidelines (Classes etc), everything we are creating is more alike a theory, if we want to put it into the
+ real life code, we have to do it through objects.
+
+Way to create:
+1)First we create the object of the class.
+
+public static void main {
+   Car => name of the class
+   bmw = new => object and the new word that created the object.
+   Car () ;
+Full line: Car bmw = new Car () ;
+                       bmw.make = “BMW” ; => ATTRIBUTES
+                       bmw.moveForward( ) ; => Method
+
+public static void main & void moveForward () ; are both methods. Whenever we are inside of the method,
+the sequence matters. When we are inside of the class, the sequence does not matter, you can define the methods
+ first or the properties first.
+[11:17 AM]
+STRING DEMO:
+   The most well used in Java.
+String name = new String ( ) ; => This is how we create it an object of the String class. As we type anything
+ inside of parathesis it will add original: by itself in the system inside of it before our code.
+String name = “Java” ; => Shorter way of creating the same thing above. And mostly, this is how we create the
+object of String class.
+Coffee machine method:
+1)Water, electricity, milk etc. => Input
+(processing in between)
+2)Coffee(Different types) => Output
+
+TIP:
+String name = “Savo Bozovic” ;
+if (name.length()>10) {
+sout(“The name can not be more than 10 letters!) ;
+} => This is what will be printed out.
+
+TIP:
+String str = “JAVA is FUN” ;
+String newStr = str.toLowerCase () ;
+sout (newStr) ;
+=> Everything will be printed out in lower case.
+
+String str = “I love java” ;
+String newStr = str.toUpperCase () ;
+sout (newStr) ;
+=> Everything will be printed out in upper case.
