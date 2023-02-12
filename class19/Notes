@@ -1,0 +1,16 @@
+Constructor
+block of code similar to a method that is executed when we created a object.We need constractor to initialized object
+how to create a constructor?
+1.constructor name MUST be same as class
+2.no return type
+
+Type of constructors:
+non arguments
+parametrized
+this keyword ====is used to refer to the current object
+this can be used with variables and method
+this.  used to refer to the instance variables
+in situation when local variable have same name as instance ===> we use this.
+to difference
+this can be used to refer to the instance methods as well
+this()  can be used to call CURRENT class constructor

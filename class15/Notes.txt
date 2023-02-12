@@ -41,3 +41,12 @@ downside:
 they stay longer in the memory as compared to local variables.
 STATIC VARIABLES
 variable that have that STATIC in,and its always outside of methods...
+upside;
+static variables only occupy one memory location fro the ram even though we create 100 objects of that class.
+they can be used in any block of code inside the class they can be acesed in any methofds og a class.
+   they can also be accessed with the help of any object of that class. They have the most wide scope
+Downside:
+    They are loaded into the memory when a class is loaded even though you don't use them.
+    =======================================================================================
+    Accees modifiers are some keywords in java that we can use to control the access of the
+    variables methods and classes,there are 4 acces levels private protected default public

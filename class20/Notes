@@ -1,0 +1,55 @@
+This keyword refers to the current class/object/instance
+this can be used to ccess current class instance variable and methods
+this()  -used with constructor to call current class constructro
+Inheritance
+what it is?
+process when subclass(child class) aquires properties and behavior from the super class
+why to use it?
+for code reausability,readability,eliminate code redundancy
+how to implement?  using extends keywords
+class Parent(){
+
+}
+class Child extends Parent{
+
+}
+inheritance Types;
+Single-1 child 1 parent
+multilevel -grandparent -->parent-->child
+hierarchal--1 parent multitype children
+Can a child class have multiple PARENTS?
+using class concept ==NO
+Access modifiers:
+4 types
+from less restrictive to the ost
+public---> proptective--->default---->private
+Private members (variables and methods) DO NOT PARTICIPATE in the inheritance
+
+VARIABLES SYNTAX
+
+    OPTIONAL         OPTIONAL           MUST    MUST
+access modifiers  nonAccess modifier  dataType  name;
+
+
+METHODS SYNTAX
+
+   OPTIONAL          OPTIONAL          MUST      MUST
+access modifiers  nonAccess modifier  returnType name() {}
+
+super keyword - used to refer to the immediate parent class
+
+can be used with variables and methods
+can be used with constructors
+
+Flower flower1 = new Flower();
+
+new -> creates an Object
+Flower(); -> initializes the object (calling a constructor)
+
+flower1 -> is variable(reference variable)
+Flower -> Type
+
+        String str=new String();
+        str="Hello";
+
+        String str1=new String("hello");
